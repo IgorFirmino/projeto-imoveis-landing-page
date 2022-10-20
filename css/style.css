@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+html,body{
+	height: 100%;
+}
+
+
+/**Divs gerais!*/
+header .container{
+	width: 100%;
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+.clear{
+	clear: both;
+}
+/******/
+
+header{
+	background-color: lightgray;
+	height: 80px;
+	padding: 10px;
+}
+
+header .logo-1{
+	float: left;
+	width: 150px;
+	height: 50px;
+	margin-top: 12px;	
+	background-image: url(../imagens/logo1.png);	
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+header .logo-2{
+	width: 150px;
+	height: 50px;
+	margin-top: 15px;
+	background-image: url(../imagens/logo2.png);	
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: right;
+}
