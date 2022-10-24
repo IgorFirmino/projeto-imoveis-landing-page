@@ -25,7 +25,7 @@ html,body{
 /******/
 
 header{
-	background-color:rgb(180,180,180);
+	background-color:rgb(220, 220, 220);
 	padding:10px 2% 35px 2%;
 }
 
@@ -57,7 +57,7 @@ section.cover-form{
 
 section .bg{
 	background-image: url(../imagens/bg-form.jpg);
-	height: 560px;
+	height: 600px;
 	position: relative;
 	background-size: 100% cover;
 	background-repeat: none;
@@ -120,6 +120,18 @@ section form input[type="submit"]{
 	border: none;
 }
 
+.arrow{
+	text-align:center ;
+	position: relative;
+}
+
+.arrow img{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
 section.chamada{
 	position: relative;
 	text-align: center;
@@ -131,7 +143,6 @@ section.chamada .container{
 }
 
 .chamada h2{
-	margin-top: 10px;
 	width: 96%;
 	display: inline-block;
 	color: white;
@@ -140,7 +151,7 @@ section.chamada .container{
 }
 
 .chamada p{
-
+	margin-bottom: 12px;
 	width: 96%;
 	display: inline-block;
 	color: white;
@@ -155,15 +166,32 @@ section.chamada .container{
 
 .item-1-mosaico{
 	background-position: center;
+	background-size: cover;
+	background-repeat: none;
 	width: 60%;
 }
 
 .item-2-mosaico{
-	padding: 40px;
+	padding: 60px 40px;
 	width: 40%;
 	background-color: #033C50;
 }
 
 .item-2-mosaico p{
 	color: white;
+}
+
+footer{
+	background-color:rgb(220, 220, 220);
+	text-align: center;
+	padding: 3px;
+}
+
+footer img{
+	width: 120px;
+}
+
+footer p{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin: 5px;
 }
