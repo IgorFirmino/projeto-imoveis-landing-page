@@ -149,3 +149,21 @@ section.chamada .container{
 	
 }
 
+.flex-mosaico{
+	display: flex;
+}
+
+.item-1-mosaico{
+	background-position: center;
+	width: 60%;
+}
+
+.item-2-mosaico{
+	padding: 40px;
+	width: 40%;
+	background-color: #033C50;
+}
+
+.item-2-mosaico p{
+	color: white;
+}
